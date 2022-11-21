@@ -1,0 +1,63 @@
+/* edição de tudo dentro da div container*/
+.container_log{
+    /* editanto o estilo fonte das letras */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* cor de fundo para a tela */
+    /* linear-gradient faz com que tenha um degrade de uma cor a outra  */
+    background-image: linear-gradient(45deg,rgb(94, 160, 204),rgb(1, 9, 19));
+}
+.log{
+    /* cor de fundo aos elementos da div com intuito de fazer uma sobra tranparente*/
+    background-color: rgba(0,0,0,0.77);
+    /* position absolute faz com que ele so ocupe os espaços de seus elementos  */
+    position: absolute;
+    /* top e left usados para definir a distancia da altura e largura da div em relação ao topo da tela e os lados  */
+    top: 50%;
+    left: 50%;
+    /* transform tranlate faz com que tudo da dive fique realmente no meio da tela em relação ao eixo x e y*/
+    transform: translate(-50%,-50%);
+    /* padding distastancia entre os elementos e a borda da div ocupada */
+    padding: 40px;
+    /* border-radius faz com que as bordas fiquem arredondadas */
+    border-radius: 10%;
+    /*color faz com que todo o texto fique em branco  */
+    color:white;
+
+
+}
+/* editando os locais de imput */
+.nam{
+    /* tamanho do campo */
+    padding: 8px;
+    /* retirando as bordas */
+    border: none;
+    /* retirando a linha da borda de fora*/
+    outline: none;
+    font-size: 11px;
+}
+.pass{
+    /* tamanho do campo */
+    padding: 8px;
+    /* retirando as bordas */
+    border: none;
+    /* retirando a linha da borda de fora*/
+    outline: none;
+    font-size: 11px;
+}
+/* editando o botao enviar */
+.bnt_ent{
+    background-color: rgb(87, 107, 107);
+    border: none;
+    padding: 7px;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+}
+.bnt_ent:hover{
+    background-color: rgb(60, 90, 90);
+
+}
+.cad{
+    color: rgb(69, 156, 233);
+}
